@@ -1,0 +1,47 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "PaperMod"
+
+[params]
+ShowBreadCrumbs = 'true'
+ShowReadingTime = 'true'
+ShowShareButtons = 'true'
+ShowPostNavLinks = 'true'
+
+[params.cover]
+linkFullImages = 'true'
+
+[params.HomeInfoParams]
+Title = "Hello Stranger"
+Content = "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff."
+
+[[params.socialIcons]]
+name = "facebook"
+url = "www.facebook.com"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "www.instagram.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "www.github.com"
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
